@@ -1,0 +1,8 @@
+<p>Modificación de observables</p>
+
+  <!-- suma de todos los productos: {{this.$sumaProducts | async}}<br><br> -->
+
+  @for (item of $resultProductMenores10dolares | async; track $index) {
+    Título: {{item.title}}<br>
+    Precio: {{item.price}}<br><br>
+  }

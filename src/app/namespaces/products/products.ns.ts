@@ -26,5 +26,9 @@ export namespace ProductsNs {
     reviews: Review[];
   }
 
+  export interface All {
+    products: Detail[];
+  }
+
 }
 
